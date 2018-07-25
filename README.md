@@ -5,7 +5,7 @@ Update those requirements.txt files with pip-tools
 Usage (assuming you have requirements in requirements.in):
 
 ```
-docker run -v $(pwd):/src --rm -it micktwomey/pip-tools
+docker run -v $(pwd):/src --rm -it kapucko/pip-tools
 ```
 
 This will build a requirements.txt for you.
